@@ -21,7 +21,7 @@ app.use('/api/bookings', require('./routes/bookingsRoute'));
 
 // Database connection and seeding
 function connectDB() {
-    mongoose.connect('mongodb://localhost:27017/carRentcp');
+    mongoose.connect('mongodb+srv://viratkohli:12345@cluster0.qrgjcg5.mongodb.net/another');
 
     const connection = mongoose.connection;
 
