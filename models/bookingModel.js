@@ -1,23 +1,3 @@
-
-// const mongoose = require("mongoose");
-
-// const bookingSchema = new mongoose.Schema({
-//   car: { type: String }, // Store the name of the car
-//   user: { type: String }, // Store the username
-//   carId: { type: mongoose.Schema.Types.ObjectId, ref: 'Car' }, // Reference to Car model for further details
-//   bookedTimeSlots: {
-//     from: { type: String },
-//     to: { type: String }
-//   },
-//   totalHours: { type: Number },
-//   totalAmount: { type: Number },
-//   transactionId: { type: String },
-//   driverRequired: { type: Boolean }
-// }, { timestamps: true });
-
-// const Booking = mongoose.model('Booking', bookingSchema);
-
-// module.exports = Booking;
 const mongoose = require("mongoose");
 
 const bookingSchema = new mongoose.Schema({
